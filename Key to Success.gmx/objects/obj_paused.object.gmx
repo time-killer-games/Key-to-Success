@@ -179,7 +179,8 @@ draw_sprite_ext(sprite_index,0,view_xview[1] + (view_wview[1]/2),view_yview[1] +
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_activate_all();&#13;
+            <string>keyboard_clear(vk_space);&#13;
+instance_activate_all();&#13;
 sprite_delete(PausedBG);&#13;
 instance_destroy();&#13;
 </string>
